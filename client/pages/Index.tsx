@@ -276,10 +276,12 @@ export default function Index() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
               <div className="aspect-video bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
                 <iframe
-                  src="https://medical-20insurance-20costs-jvdahg4svjurhz37lemfwy.streamlit.app"
+                  src="https://medical-20insurance-20costs-jvdahg4svjurhz37lemfwy.streamlit.app?embedded=true"
                   className="w-full h-full border-0"
                   title="Medical Cost Prediction App"
                   loading="lazy"
+                  allow="camera; microphone; geolocation"
+                  sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation-by-user-activation"
                 />
               </div>
               <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/5 to-transparent"></div>
