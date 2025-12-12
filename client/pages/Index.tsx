@@ -276,7 +276,7 @@ export default function Index() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
               <div className="aspect-video bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
                 <iframe
-                  src="https://your-streamlit-app.streamlit.app"
+                  src="https://medical-20insurance-20costs-jvdahg4svjurhz37lemfwy.streamlit.app"
                   className="w-full h-full border-0"
                   title="Medical Cost Prediction App"
                   loading="lazy"
