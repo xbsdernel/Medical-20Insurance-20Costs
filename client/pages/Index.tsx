@@ -287,8 +287,7 @@ export default function Index() {
 
             <div className="mt-8 text-center">
               <p className="text-sm text-muted-foreground">
-                Update the iframe URL above with your live Streamlit app link
-                once it's deployed
+                Get predictions powered by machine learning
               </p>
             </div>
           </div>
